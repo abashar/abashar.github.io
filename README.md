@@ -19,7 +19,9 @@ NYC Application Filings Query Tool.
 	
     5) Initial data load, search, pagination are based on endpoints that return search results. These endpoints are using AJAX.
 	
-    6 / 7) Query tool has search option based on available data fields, reset option, sort and pagination option. 
+    6) Query tool has search option based on available data fields, reset option, sort and pagination option. 
+	
+	7) User should be able to search and sort your results on all the field
 
     8) While pagination the page will invoke AJAX call so the page doesn't have to be refreshed for each request. 
 	
