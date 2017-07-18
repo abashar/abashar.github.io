@@ -19,10 +19,10 @@ NYC Application Filings Query Tool.
 	
     5) Initial data load, search, pagination are based on endpoints that return search results. These endpoints are using AJAX.
 	
-    6/7) Query tool has search option based on available data fields, reset option, sort and pagination option. 
+    6 / 7) Query tool has search option based on available data fields, reset option, sort and pagination option. 
 
     8) While pagination the page will invoke AJAX call so the page doesn't have to be refreshed for each request. 
 	
 
 
-2. I would use Angular mainly because of search input validation, sorting.
+2. I would use Angular mainly because of search input validation, sorting. There is no search data validation to this code. Can be added as required.
