@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Project Open Data | SFARI</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Titillium+Web:300" rel="stylesheet">
+<link rel='stylesheet' id='style-css'  href='https://www.simonsfoundation.org/wp-content/themes/simons/style.css?ver=r20170523' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script> 
+</head>
+<body>
+<div id="page" class="hfeed site">
+  <div class="shadow">
+    <header id="masthead" class="site-header" role="banner">
+      <div class="clearfix">
+        <hgroup>
+          <h1 class="site-title"><span class="site-logo"><a href="https://www.simonsfoundation.org/" title="Simons Foundation" rel="home"> 
+            <!--[if gte IE 9]><!-->
+        				<img alt="Simons Foundation" src="https://www.simonsfoundation.org/wp-content/themes/simons/images/logo-simons.svg">
+      				<!--<![endif]--> 
+            <!--[if lte IE 8]>
+        				<img alt="Simons Foundation" src="https://www.simonsfoundation.org/wp-content/themes/simons/images/logo_simons_small.png">
+      				<![endif]--> 
+            </a></span></h1>
+          <h2 class="site-description">Advancing Research in Basic Science and Mathematics</h2>
+        </hgroup>
+        <div class="menu-header-search"> 
+          <!--<form action='' id='searchform' method='get' role='search'><input type='text' name='s' id='s' placeholder='Search people and site'><input type='submit' class='submit' name='submit' id='searchsubmit' value='' /></form>-->
+          
+          <form method="get" id="searchform" action="https://www.simonsfoundation.org/" role="search" intent="" in-base-append="div.menu-header-search" in-mobile-after="#preform" after="">
+            <p class="clearfix">
+              <input value="" class="field" name="s" id="s" placeholder="Search people and site" type="text">
+              <input class="submit" id="searchsubmit" value="" type="submit">
+            </p>
+          </form>
+        </div>
+      </div>
+      <nav role="navigation" class="seccondary-navigation">
+        <div class="menu-auxiliary-menu-container" intent="" in-base-append="nav.seccondary-navigation" in-mobile-after="div.menu-main-menu-container" after="">
+          <ul id="menu-auxiliary-menu" class="menu">
+            <li id="menu-item-12098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12098"><a href="https://www.simonsfoundation.org/simons-society-of-fellows/">Simons Society of Fellows</a></li>
+            <li id="menu-item-9725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9725"><a href="https://www.simonsfoundation.org/simons-foundation-data-resources/">Data Resources</a></li>
+            <li id="menu-item-7154" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7154"><a href="https://www.simonsfoundation.org/category/features/foundation-news/">Foundation News</a></li>
+            <li id="menu-item-7155" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7155"><a href="https://www.simonsfoundation.org/category/multimedia/">Multimedia</a></li>
+            <li id="menu-item-15674" class="menu-item menu-item-type-post_type menu-item-object-funding menu-item-15674"><a href="https://www.simonsfoundation.org/funding/funding-opportunities/">Funding</a></li>
+            <li id="menu-item-15675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15675"><a href="https://www.simonsfoundation.org/lectures/">Lectures</a></li>
+            <li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://www.simonsfoundation.org/about-us/">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="menu-collapser" style="display: none;">
+        <button class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      </div>
+      <nav role="navigation" class="site-navigation main-navigation">
+        <h1 class="assistive-text">Menu</h1>
+        <div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+        <div class="menu-main-menu-container">
+          <ul id="menu-main-menu" class="menu">
+            <li class="menu-header-search">
+              <div id="preform"></div>
+            </li>
+            <li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="https://www.simonsfoundation.org/mathematics-and-physical-science/" style="padding-left: 29px; padding-right: 29px;">Mathematics &amp; Physical Sciences</a></li>
+            <li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="https://www.simonsfoundation.org/life-sciences/" style="padding-left: 29px; padding-right: 29px;">Life Sciences</a></li>
+            <li id="menu-item-7158" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7158"><a href="http://sfari.org" style="padding-left: 29px; padding-right: 29px;">Autism Research</a></li>
+            <li id="menu-item-7157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7157"><a href="https://www.simonsfoundation.org/education-outreach/" style="padding-left: 29px; padding-right: 29px;">Education &amp; Outreach</a></li>
+            <li id="menu-item-22088" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-22088"><a href="https://www.simonsfoundation.org/flatiron-institute/" style="padding-left: 29px; padding-right: 27px;">Flatiron Institute</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="main" class="clearfix">
+      <div class="breadcrumb"> <a href="/">Home</a> » <a href="https://www.simonsfoundation.org/flatiron-institute/simons-center-for-data-analysis/">Center for Data Analysis</a> » NYC OpenData </div>
+      <!-- .breadcrumb -->
+      
+      <div id="primary" class="site-content">
+        <div id="content" class="clearfix simons-center-for-data-analysis" role="main">
+          <div class="dottedUnderline h_wide clearfix">
+            <h1 class="entry-title">Department of Buildings </h1>
+          </div>
+		  <div class="searchdata">
+			<div class="sectiontitle">Search Application Filings</div>
+			<div class="searchbox">
+				<div class="searchlabel">Search by: </div>
+				<div class="selectoption">
+					<select class="dataoption"></select>
+					<input type="text" class="datavalues" />
+					<input type="button" class="searchbtn" value="Search" />
+					<input type="button" class="resetbtn" value="Reset" />
+				</div>
+			</div>
+		  </div>
+		  <!-- .searchdata -->
+		  <div class="recentdata">
+			<div class="sectiontitle">Most Recent Application Filings</div>
+		  </div>
+		  <!-- .recentdata -->
+		  <div class="datacontainer">
+			<div class="scroll-left"></div>
+			<div class="scroll-right"></div>
+			<div class="datadisplay">
+				<table id="myTable" class="datatable"> 
+					
+				</table>
+				<!-- .datatable -->
+			</div>
+			<!-- .datadisplay -->
+		  </div>
+		 <!-- .datacontainer -->
+		 <div class="datapagination">
+			<div class="btn dataprev">&#9668 Prev</div>
+			<div class="datastatus">Displaying <span class="currentrows"> 1 - 10 </span> of <span class="totalrows"></span></div>
+			<div class="btn datanext">Next &#9658</div>
+		 </div>
+		 <!-- .datapagination -->
+        </div>
+        <!-- #content --> 
+      </div>
+      <!-- #primary .site-content --> 
+      
+    </div>
+  </div>
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+      <div class="menu-footer-container">
+        <ul id="menu-footer" class="menu">
+          <li id="menu-item-58" class="first menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="https://www.simonsfoundation.org/about-us/">About Simons Foundation</a></li>
+          <li id="menu-item-1945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1945"><a href="https://www.simonsfoundation.org/mathematics-and-physical-science/">Mathematics &amp; Physical Sciences</a></li>
+          <li id="menu-item-1970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1970"><a href="https://www.simonsfoundation.org/life-sciences/">Life Sciences</a></li>
+          <li id="menu-item-7573" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7573"><a href="http://www.sfari.org/">Autism Research</a></li>
+          <li id="menu-item-7168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7168"><a href="https://www.simonsfoundation.org/education-outreach/">Education &amp; Outreach</a></li>
+          <li id="menu-item-15704" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15448 current_page_item menu-item-15704"><a href="https://www.simonsfoundation.org/flatiron-institute/simons-center-for-data-analysis/">Center for Data Analysis</a></li>
+          <li id="menu-item-18180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18180"><a href="https://www.simonsfoundation.org/privacy-policy/">Privacy Policy</a></li>
+          <li id="menu-item-18181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18181"><a href="https://www.simonsfoundation.org/terms-and-conditions/">Terms and Conditions</a></li>
+          <li id="menu-item-1456" class="last menu-item menu-item-type-post_type menu-item-object-page menu-item-1456"><a href="https://www.simonsfoundation.org/about-us/contact-us/">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- .site-info --> 
+  </footer>
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

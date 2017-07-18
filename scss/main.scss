@@ -1,0 +1,187 @@
+#menu-main-menu {
+	li {
+		a {
+			padding:0 28px !important;
+		}
+	}
+}
+.sectiontitle {
+	background-color: #3a509c;
+    color: #fff;
+    width: auto;
+    clear: both;
+    padding: 0 10px;
+    margin: 5px 0;
+	width: auto;
+	float: left;
+}
+
+.searchdata {
+	float:left;
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+    z-index: 1;
+	
+	.searchlabel {
+		float: left;
+		margin-right: 10px;
+	}
+	
+	.searchbox {
+		float: left;
+		width: 100%;
+		padding: 10px 0 10px 15px;
+		
+		select, input {
+			float: left;
+			margin-right:20px;
+			text-transform: capitalize;
+			height: 25px;
+		}
+		
+		input[type=text] {
+			width:300px;
+		}
+		
+		input[type="button"] {
+			padding: 0 20px;
+		}
+	}
+}
+
+
+.recentdata {
+	float:left;
+}
+
+.datacontainer {
+	margin:20px 0 0;
+	min-height:200px;
+	position: relative;
+
+	.scroll-right,
+	.scroll-left {
+		display:block;
+		position: absolute;
+		height: 100%;
+		width: 15px;
+	}
+	
+	.scroll-left {
+		left: 0;
+		box-shadow: 15px 0 15px -15px rgba(0, 0, 0, 0.8) inset;
+	}
+	
+	.scroll-right {
+		right: 0;
+		box-shadow: -15px 0 15px -15px rgba(0, 0, 0, 0.8) inset
+	}
+	
+	.datadisplay {
+		width: 100%;
+		overflow: auto;
+	}
+	
+	.datatable {
+        width:auto;
+
+		.headerrow {
+			width:auto;
+			display:block;
+			clear: both; 
+			
+			.divcol {
+				float:left;
+				background-color: #ededed;
+				color: #394f9f;
+				font-family: "Univers Next W01 Light";
+				font-size: 16px;
+				padding: 0 10px;
+				clear:none;
+				margin: 5px;
+				text-transform: capitalize;
+				width:200px;
+			}
+		}
+		
+		.datarow {
+			width:auto;
+			display:block;
+			clear: both; 
+			
+			.divcol {
+				float: left; 
+				font-size: 13px;
+				padding: 0 10px;
+				clear:none;
+				float:left;
+				margin: 5px;
+				width:200px;
+				height:65px;
+				overflow:auto;
+				border-bottom:1px solid #ededed;
+			}
+		}
+	}
+}
+
+.datapagination {
+	position: relative;
+	height: 100px;
+	margin-top: 15px;	
+	
+	.dataprev, 
+	.datanext	{
+		background-color: #3a509c;
+		color: #fff;
+		float: left;
+		padding: 2px 15px;
+		line-height: 27px;
+		text-align: center;
+		width: auto;
+		position: absolute;
+		cursor: pointer;
+		display: block;
+		top:0;
+	}
+	
+	.dataprev {
+		left: 0;
+		display: none;
+	}
+	
+	.datanext {
+		right: 0;
+	}
+	
+	.datastatus {
+		width: 200px;
+		margin: 0 auto;
+		font-size: 13px;
+		font-style: italic;
+		font-weight: bold;
+	}
+}
+
+table {
+	&.datatable {
+		thead {
+			tr {
+				cursor: pointer;
+				
+				.tablesorter-headerUnSorted {
+					background: url("http://tablesorter.com/themes/blue/bg.gif") right center no-repeat;
+				}
+				
+				.tablesorter-headerAsc {
+					background: url("http://tablesorter.com/themes/blue/asc.gif") right center no-repeat;
+				}
+				
+				.tablesorter-headerDesc {
+					background: url("http://tablesorter.com/themes/blue/desc.gif") right center no-repeat;
+				}
+			}
+		}
+	}
+}
